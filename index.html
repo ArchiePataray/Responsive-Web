@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archie Pataray</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <nav class="nav">
+      <a href="#" class="nav-logo">MyResponsiveWeb</a> 
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+      <div class="navbar">
+        <a href="#home" class="nav-item" data-color="orange">Home</a>
+        <a href="#about" class="nav-item" data-color="green">About</a>
+        <a href="#projects" class="nav-item" data-color="blue">Project</a>
+        <a href="#services" class="nav-item" data-color="red">Services</a>
+        <a href="#contact" class="nav-item" data-color="rebeccapurple">Contact</a>
+        <span class="nav-indicator"></span>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <h1>Archie Pataray</h1>
+        <p>Welcome to my personal website!</p>
+        <section class="images-section">
+          <img src="image1.jpg" alt="Image 1" class="responsive-img" />
+          <img src="image2.jpg" alt="Image 2" class="responsive-img" />
+        </section>
+      </section>
+
+  
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a web developer passionate about building interactive and user-friendly websites. With a background in coding, I enjoy creating seamless experiences for users.</p>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+          <div class="card">
+            <h3>Project One</h3>
+            <p>A web app built with HTML, CSS, and JavaScript that provides amazing functionality.</p>
+          </div>
+          <div class="card">
+            <h3>Project Two</h3>
+            <p>This project focuses on creating responsive designs using modern web development practices.</p>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="services" class="services">
+        <h2>Services</h2>
+        <ul>
+          <li>Website Development</li>
+          <li>UI/UX Design</li>
+          <li>SEO Optimization</li>
+          <li>Web Maintenance</li>
+        </ul>
+      </section>
+
+      
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
